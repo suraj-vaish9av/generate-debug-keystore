@@ -7,9 +7,10 @@ To get rid of this problem, we can create a debug Keystore file, and configure i
 
 
 <h3>Step 1: To generate debug.keystore, you can download this shell script file, and run it : </h3>
+ 
  ```
- sh generate-debug-keystore.sh
- ```
+sh generate-debug-keystore.sh
+```
 
 It will ask you to enter some relevant data, proceed with it, and it will generate your debug.keystore
 
