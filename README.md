@@ -16,8 +16,10 @@ It will ask you to enter some relevant data, proceed with it, and it will genera
 Note: This will also print the SHA1, copy it if you may need to give it to firebase or Facebook, etc. 
 
 <h3>Step 2: Configure it in your build.gradle (app level) </h3> 
+
+
 ```
-android {
+ android {
     ...
     signingConfigs {
         debug {
@@ -28,10 +30,12 @@ android {
         }
     }
 }
-```
+ 
+  ```
 
 You can store debug.keystore under the project's root directory, and set the path for storeFile:  '../debug.keystore'
 Other fields storePassword, keyAlias, keyPassword must match with those which were used when generating debug.keystore file.
+
 
 
 
