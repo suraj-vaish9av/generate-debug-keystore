@@ -1,8 +1,6 @@
 # generate-debug-keystore
 
-While developing android apps, we often have encountered a problem when moving our android project to another system, we need to reconfigure the SHA1 in various platforms like Firebase, Facebook, etc.
-
-To get rid of this problem, we can create a debug Keystore file, and configure it in our build.gradle(app level) file, so that the same Keystore file could be used across the system.
+While developing android apps, we often have encountered a problem when moving our android project to another system, we need to reconfigure the SHA1 in various platforms like Firebase, Facebook, etc. To get rid of this problem, we can create a debug Keystore file, and configure it in our build.gradle(app level) file, so that the same Keystore file could be used across the system.
 
 
 
