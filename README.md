@@ -36,5 +36,6 @@ You can store debug.keystore under the project's root directory, and set the pat
 Other fields storePassword, keyAlias, keyPassword must match with those which were used when generating debug.keystore file.
 
 
+If you find this script useful, show your love by putting a star on this repository.
 
 
